@@ -41,17 +41,20 @@ brew install grep
 brew install openssh
 brew install screen
 brew install php
+brew install php-code-sniffer
+brew install composer
 brew install gmp
+brew install cloc
+
+brew install node
+brew install nvm
+
 
 # Install other useful binaries.
 brew install ack
 brew install git
 brew install git-lfs
 brew install imagemagick --with-webp
-brew install lua
-brew install lynx
-brew install p7zip
-brew install pigz
 brew install pv
 brew install rename
 brew install rlwrap
@@ -59,6 +62,15 @@ brew install ssh-copy-id
 brew install tree
 brew install vbindiff
 brew install zopfli
+
+brew install svgo
+brew install z # Smarter cd for directories you frequently visit
+
+# Mac Apps
+brew install macdown # My preferred Markdown editor
+brew install rectangle # Window management app
+brew install sequel-ace # MySQL GUI tool
+
 
 # Remove outdated versions from the cellar.
 brew cleanup
